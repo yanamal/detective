@@ -1,0 +1,40 @@
+:: StoryTitle
+detective
+
+
+:: StoryData
+{
+	"ifid": "E2DD51D9-C77A-4453-9C26-67735025184C",
+	"format": "SugarCube",
+	"format-version": "2.30.0",
+	"start": "Hello",
+	"zoom": 1
+}
+
+
+:: Hello {"position":"670,225","size":"100,100"}
+You see a <<link "man">><<removeclass "#mandesc" "hidden">><</link>>.
+\
+<span class="hidden" id="mandesc">
+\He is a gentleman of a medical type. He has the air of a military man. 
+\</span>
+
+
+:: StoryMenu {"position":"464,107","size":"100,100"}
+<<link "Expand!">>
+    <<script>>
+        Dialog.setup("Dialog");
+        Dialog.wiki("TODO: implement expand");
+        Dialog.open();
+    <</script>>
+<</link>>
+
+
+:: StoryCaption {"position":"462,226","size":"100,100"}
+<<include "Deduction">>
+
+
+:: Deduction {"position":"461,338","size":"100,100"}
+<span id="cycontainer" style="width:100%;height:300px;display:block;text-align:left;"></span>
+
+

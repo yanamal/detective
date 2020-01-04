@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+
+#ui-bar {
+  width: 17.5em;
+}
+
+#cy {
+  width: 300px;
+  height: 300px;
+  display: block;
+}
