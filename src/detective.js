@@ -1,4 +1,4 @@
-// TODO: try putting in header
+// TODO: try putting in header?..
 setup.cypromise = importScripts("https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.9.0/cytoscape.min.js");
 
 var cy = null; // global variable for "current" cytoscape instance.
@@ -34,23 +34,23 @@ var cysetup = function(cysel) {
 			container: cysel,
 
 			elements:  {
-    nodes: [
-      {
-        data: { id: 'a' }
-      },
+				nodes: [
+					{
+						data: { id: 'a' }
+					},
 
-      {
-        data: { id: 'b' }
-      }
-    ],
-    edges: [
-      {
-        data: { id: 'ab', source: 'a', target: 'b' }
-      }
-    ]
-  },
+					{
+						data: { id: 'b' }
+					}
+				],
+				edges: [
+					{
+						data: { id: 'ab', source: 'a', target: 'b' }
+					}
+				]
+			},
 
-			style: [ // the stylesheet for the graph
+			style: [ // the stylesheet for the graph. TODO: try to do it in .css?
 				{
 					selector: 'node',
 					style: {

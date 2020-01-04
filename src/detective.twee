@@ -1,5 +1,5 @@
 :: StoryTitle
-detective
+Detective
 
 
 :: StoryData
@@ -17,7 +17,7 @@ You see a <<link "man">><<removeclass "#mandesc" "hidden">><</link>>.
 \
 <span class="hidden" id="mandesc">
 \He is a gentleman of a medical type. He has the air of a military man. 
-\</span>
+</span>
 
 
 :: StoryMenu {"position":"464,107","size":"100,100"}
